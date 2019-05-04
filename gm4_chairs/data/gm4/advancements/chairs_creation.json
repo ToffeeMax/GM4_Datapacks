@@ -2,7 +2,7 @@
   "display":{
     "icon":{
       "item":"birch_stairs",
-      "nbt":"{display:{Name:\"\\\"chairs logo\\\"\"}}"
+      "nbt":"{display:{Name:'\"chairs logo\"'}}"
     },
     "title":"A throne, fit for a king!",
     "description":{
@@ -12,7 +12,7 @@
   },
   "parent":"gm4:root",
   "criteria":{
-    "TRIGGER_NAME":{
+    "create_chair":{
       "trigger":"minecraft:impossible"
     }
   }
